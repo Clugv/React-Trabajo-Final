@@ -1,5 +1,6 @@
 import React from 'react'
 import { useAuth } from '../../../core/auth/hook/use_auth';
+import { AppSwiper } from '../../../core/components/app_swiper/app_swiper';
 
 
 const HomeView = () => {
@@ -10,8 +11,10 @@ const HomeView = () => {
 
   return (
     <div>
-      <h1>HOME</h1>
       <button onClick={logout}>Cerrar Sesión</button>
+      <br>
+      </br>
+      <AppSwiper />
     </div>
   )
 }

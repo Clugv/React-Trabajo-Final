@@ -9,5 +9,16 @@ Currently, two official plugins are available:
 
 # Proyecto Final React
 
-instalar axios
-npm install axios
+- Clonar poryecto
+
+- instalar paquetes: npm install
+
+- instalar axios: npm install axios 
+
+- instalar swiper: npm install swiper
+
+- configurar variables de entorno en el .env (copiar de .env_example)
+
+
+
+
