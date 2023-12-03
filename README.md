@@ -10,6 +10,8 @@
 
 - Instalar swiper: npm install swiper
 
+- Instalar swr: npm i swr
+
 - Configurar variables de entorno en el .env (copiar de .env_example)
 
 
