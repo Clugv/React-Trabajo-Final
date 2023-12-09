@@ -22,7 +22,7 @@ const LoginView = () => {
 
   return (
     <div className='container' style={{
-      backgroundImage: `url("/public/images/website_large.jpg")`,
+      backgroundImage: `url(images/website_large.jpg)`,
       //height:'680px',
       //width: '100%',  
       }}>
