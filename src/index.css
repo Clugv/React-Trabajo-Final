@@ -22,3 +22,129 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+swiper-container::part(button-prev),
+swiper-container::part(button-next) 
+{
+  color: rgb(219, 210, 210);
+}
+
+
+.form-input {
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  padding: 16px 20px 0;
+  background: transparent;
+  font-size: 1rem;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.5;
+}
+
+.form-input input{
+  width: 100%;
+  color: inherit;
+  -webkit-filter: opacity( 0% );
+  filter: opacity( 0% );
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+
+.login-form {
+  background-color: rgba(0,0,0,.75);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 0px;
+  min-height: 515px;
+  padding: 20px 0 30px;
+  width: 100%;
+  padding-bottom: 16px;
+  max-width: 450px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.form-inc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  gap: 16px;
+}
+
+.login-button {
+  background: #e50914;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 24px 0 12px;
+  color: #fff;
+}
+
+.login-button:hover {
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  background: rgb(193,17,25);
+  border-color: black;
+  color: #fff;
+}
+
+.login-h1{
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: rgb(255,255,255);
+  margin-bottom: 28px;
+}
+
+.login-link {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: none;
+  border-radius: 0;
+  border: 0;
+  box-sizing: content-box;
+  color: inherit;
+  cursor: default;
+  display: inline;
+  font: inherit;
+    line-height: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  border-radius: 0.125rem;
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.container {
+  max-width: 100%;
+}
