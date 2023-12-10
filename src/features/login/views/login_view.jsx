@@ -27,7 +27,6 @@ const LoginView = () => {
       //width: '100%',  
       }}>
       <div className='row'>
-          <div className='navbar navbar-dark bg-dark'></div>
           <div className='col'></div>
           <div className='col login-form'  style={{
             backgroundColor: 'rgba(0,0,0,.75)',

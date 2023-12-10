@@ -7,7 +7,7 @@ const AppCarouselSection = ({title, data}) => {
   return (
     <>
         <AppTitle>{title}</AppTitle>
-        <AppSwiper>
+        <AppSwiper> 
         { data?.map((e) => (
             <AppSwiperSlide key={e.id}>
             <div style={{
@@ -17,8 +17,9 @@ const AppCarouselSection = ({title, data}) => {
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',
+                border: '1px solid black',
                 }}>
-                <h3>{e.title}</h3>
+                <span>{e.title}</span>
             </div>
             </AppSwiperSlide>
         ))}

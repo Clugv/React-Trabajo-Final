@@ -6,6 +6,9 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Arial', sans-serif;
+}
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -27,6 +30,27 @@ swiper-container::part(button-next)
 {
   color: rgb(219, 210, 210);
 }
+
+swiper-container::part(container) 
+{
+  color: rgb(219, 210, 210);
+  width: 100%;
+  margin: 50px auto;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.carousel-home-section {
+  background-color: #242424;
+}
+
+.carousel-home-section h2{
+  margin: 0px 0px -2.5rem !important; 
+}
+
+
 
 
 .form-input {
@@ -145,6 +169,5 @@ swiper-container::part(button-next)
   text-decoration: none;
   margin: 0 auto;
 }
-.container {
-  max-width: 100%;
-}
+
+
