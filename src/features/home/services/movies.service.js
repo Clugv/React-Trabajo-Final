@@ -24,7 +24,7 @@ export const getPopularMovies = async () => {
 };
 
 export const getTopRatedMovies = async () => {
-    const { data } = await tmdb_api.get(tmdb_paths.movies.top_rate);
+    const { data } = await tmdb_api.get(tmdb_paths.movies.top_rates);
     const adapted = tmdbMoviesTvAdapter(data);
     return adapted;
 };
